@@ -1,0 +1,28 @@
+User & Server
+
+1. User --> Server
+
+    * login / logoff
+    * CRUD
+
+2. Server --> User
+
+    * online / offline
+
+3. User --> User
+
+    * direct massages
+
+Commands:
+
+    login|<email>|<password>
+    logoff
+    msg|<sendTo>|body...
+    inbox
+    outbox
+
+    admin|login|<username>|<password>
+    create|<name>|<surname>|<birthdate>|<gender>|<email>|<password>
+    read
+    update|<email of updated user>|<name>|<surname>|<birthdate>|<gender>|<email>|<password>
+    delete|<email of user>
